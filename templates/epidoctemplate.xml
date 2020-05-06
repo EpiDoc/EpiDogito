@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>{ Title }</title>
+                <!--optional--><!--<author>{ Author }</author>-->
+                <editor xml:id="{ username }">{ annotator's username }</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>{ Attribution }</authority>
+                <idno type="filename"></idno>
+                <availability>
+                    <licence>{ License } <ref>{ License URL }</ref></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>{ Source }</bibl>
+                <!--optional--><!--<bibl>{ Edition }</bibl>-->
+                <msDesc>
+                    <msIdentifier>
+                        <msName>n/a</msName>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>{ Description }</summary>
+                        <textLang>{ Language }</textLang>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate>{ Date }</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><!-- xml:lang="la"--><!-- if content of {Language} is a legal language code (something like r"[a-z]{2,3}(-\w{2,5})?(-\w{2,8})?" then put it in @xml:lang as well, otherwise omit. -->
+                <ab>
+                    { Text and annotations }
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>
