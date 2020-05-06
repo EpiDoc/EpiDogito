@@ -1,0 +1,69 @@
+<TEI xml:space="preserve" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio</title>
+                <editor xml:id="gabrielbodard" role="EpiDoc encoding">Gabriel Bodard</editor>
+                <editor role="editio princeps">Roger S. Tomlin</editor>
+                <editor role="EDH edition">James M.S. Cowey</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Heidelberg</authority>
+                <idno type="filename">HD051495</idno>
+                <availability>
+                    <licence>CC-BY 4.0 <ref>https://creativecommons.org/licenses/by/4.0/</ref></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD051495</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <msName>n/a</msName>
+                    </msIdentifier>
+                    <msContents>
+                        <summary/>
+                        <textLang>Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="https://www.eagle-network.eu/voc/material/lod/108.html">Lead</material>
+                                    <objectType ref="https://www.eagle-network.eu/voc/typeins/lod/76.html">Curse Tablet</objectType>
+                                    <dimensions>
+                                        <height unit="mm">103</height>
+                                        <width unit="mm">54</width>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate>Fourth century CE</origDate>
+                        </origin>
+                        <provenance when="1994" type="found">West Deeping, Lincolnshire</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:space="preserve" xml:lang="la" type="edition">
+                <ab>
+                    <lb/>Ma<supplied reason="lost">t</supplied>r<supplied reason="lost">i</supplied>x <supplied reason="lost">t</supplied>i<supplied reason="lost">bi</supplied> dico sede in 
+                    <lb/>tuo loco VO<gap unit="character" reason="lost" extent="unknown"/>
+                    <lb/><gap unit="character" reason="lost" extent="unknown"/>S dedit tibi adiuro te per <persName xml:id="recogito-94825b0b-7ab5-492f-afd7-00cb218272b0">Ia</persName><note target="recogito-94825b0b-7ab5-492f-afd7-00cb218272b0" resp="gabrielbodard">Iao</note><gap unit="character" reason="lost" extent="unknown"/>  
+                    <lb/>et per <persName xml:id="recogito-b4d6a594-5db1-4ca2-88ed-611ba454f6d7">Saba</persName><note target="recogito-b4d6a594-5db1-4ca2-88ed-611ba454f6d7" resp="gabrielbodard">Sabao</note><gap unit="character" reason="lost" extent="unknown"/> et  
+                    <lb/>per <persName xml:id="recogito-642a3e6e-cee2-40e5-be9f-7bfcc7ba1b0d">Adnai</persName><note target="recogito-642a3e6e-cee2-40e5-be9f-7bfcc7ba1b0d" resp="gabrielbodard">Adonai</note> ne  
+                    <lb/>latus teneas se 
+                    <lb break="no"/>d sede in tuo lo 
+                    <lb break="no"/>co nec nocea<supplied reason="lost">s</supplied> 
+                    <persName xml:id="recogito-4d95d42f-18f0-410c-8487-cd845344d77a">Cleuomedem</persName><note target="recogito-4d95d42f-18f0-410c-8487-cd845344d77a" resp="gabrielbodard">Cleuomedes</note>  
+                    <lb/><supplied reason="lost">f</supplied>iliam A<gap unit="character" reason="lost" extent="unknown"/>
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>
